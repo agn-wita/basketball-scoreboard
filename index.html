@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball scoreboard</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="flex">
+
+            <div class="home">
+                <h1>HOME</h1>
+                <p class="sum" id="homeCount">0</p>
+                <button onclick="homeAdd1()">+ 1</button>
+                <button onclick="homeAdd2()">+ 2</button>
+                <button onclick="homeAdd3()">+ 3</button>
+            </div>
+
+            <div class="guest">
+                <h1>GUEST</h1>
+                <p class="sum" id="guestCount">0</p>
+                <button onclick="guestAdd1()">+ 1</button>
+                <button onclick="guestAdd2()">+ 2</button>
+                <button onclick="guestAdd3()">+ 3</button>
+            </div>
+        </div>
+    </div> 
+    <button class="set-zero" onclick="setZero()">New game</button>   
+        <script src="index.js"></script>
+</body>
+</html>

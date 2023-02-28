@@ -15,7 +15,7 @@ Basketball score board using Javascript code to visualize the result of the game
 - margins and paddings
 - typography styles
 
-## JavaScript
+## JAVASCRIPT
 - initializing count as 0
 - changing count in HTML to reflect new count
 - setting listen for clicks on the increment buttons

@@ -21,4 +21,6 @@ Basketball score board using Javascript code to visualize the result of the game
 - setting listen for clicks on the increment buttons
 - incrementing the count variables when the buttons are clicked 
 
+## Stage of the project: completed
 
+Please note that this project is based on tutorial but the code was not copied. Every line of code was written by me according to my invention and with deep understanding of the issues.
